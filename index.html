@@ -7,39 +7,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+  <nav class="navbar navbar-expand-md navbar-light bg-light ">
     <div class="container">
       <div class="row">
-        <a class="navbar-brand col-md-4" href="#"> Call Us Today </a>
-        <a class="navbar-brand col-md-1" href="#">1-888-123-456 </a>
+        <div class="col-md-8">
+        <a class="navbar-brand  col-md-6 col-sm-6" href="#"> Call Us Today </a>
+        <a class="navbar-brand col-md-2 col-sm-6" href="#">1-888-123-456 </a>
+      </div>
+    </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenü"
+        aria-controls="navbarmenü" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarmenü">
+        <div class="col-md-7">
+          <ul class="navbar-nav">
+            <li class=" nav-link " href="#">AnaSayfa</li>
+            <li class=" nav-link " href="#">İletişim</li>
+            <li class=" nav-link " href="#">Hakkımızda</li>
+            <li class=" nav-link " href="#">Ürünlerimiz</li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
 
-
   <div class="container">
     <div class="row">
-      <div class="col-md-4 text-center" >
-        <img src="/img/alan-2.jpg" width="200">
-        <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, error eligendi eaque debitis
+      <div class="col-md-4 text-center">
+        <img src="img/alan-5.jpg" style="border-radius: 50%;" width="200" height="200">
+        <p class="mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, error eligendi eaque debitis
           perferendis repudiandae voluptatem optio sint, porro, quam fugit consequatur.</p>
       </div>
 
       <div class="col-md-4 text-center">
-        <img src="/img/alan-3.jpg"  width="200">
-        <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex facilis eaque similique, porro
+        <img src="img/alan-3.jpg" style="border-radius: 50%;" width="200" height="200">
+        <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex facilis eaque similique, porro
           aut nam esse aspernatur obcaecati minus, vel itaque ipsum!</p>
       </div>
 
       <div class="col-md-4 text-center">
-        <img src="/img/alan-4.jpg" width="200">
-        <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error dignissimos adipisci,
+        <img src="img/alan-4.jpg" style="border-radius: 50%;" width="200" height="200">
+        <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error dignissimos adipisci,
           maxime, provident esse incidunt vitae facere praesentium magni ea iste veniam.</p>
       </div>
     </div>
